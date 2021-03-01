@@ -1,0 +1,38 @@
+[
+    {
+        "app_id": "libreoffice-calc.desktop",
+        "date_created": 1590060870.0,
+        "description": "\u5217\u5bbd\u8bbe\u7f6e\u65e0\u6cd5\u56fa\u5b9a\uff0c\u91cd\u542f\u540e\u53c8\u6062\u590d\u521d\u59cb\u8bbe\u7f6e",
+        "distro": "CentOS Linux",
+        "karma_down": 0,
+        "karma_up": 0,
+        "locale": "zh_CN",
+        "rating": 60,
+        "reported": 0,
+        "review_id": 214053,
+        "score": 0,
+        "summary": "\u95ee\u9898\u8f83\u591a",
+        "user_display": "www",
+        "user_hash": "b6eb65fe633378a9e4bb44f40f52f872620c2a53",
+        "user_skey": "906a6560b1422b687045a8871e8752172ad2e61d",
+        "version": "6.0.6.1"
+    },
+    {
+        "app_id": "libreoffice-calc.desktop",
+        "date_created": 1592699756.0,
+        "description": "linux\u4e0b\u7684\u56fe\u5f62\u5e94\u7528\u505a\u5230\u8fd9\u4efd\u4e0a\u8fd8\u633a\u5f3a\uff0c\u5176\u4ed6\u4e5f\u4e0d\u5962\u6c42\u4e86\uff0c",
+        "distro": "CentOS Linux",
+        "karma_down": 0,
+        "karma_up": 0,
+        "locale": "zh_CN",
+        "rating": 80,
+        "reported": 0,
+        "review_id": 234499,
+        "score": 0,
+        "summary": "\u61d2\u5f97\u5199\u811a\u672c\uff0c\u5904\u7406\u5fae\u91cf\u6570\u636e\u633a\u65b9\u4fbf\u7684",
+        "user_display": "she1",
+        "user_hash": "b99c7be84007fd1a57f1d878a031fcfb1b30f720",
+        "user_skey": "906a6560b1422b687045a8871e8752172ad2e61d",
+        "version": "5.3.6.1"
+    }
+]

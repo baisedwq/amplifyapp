@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,follow">
+
+<title>FrontPage - CentOS Wiki</title>
+<script type="text/javascript" src="/moin_static1911/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "搜索";
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" media="all" href="/moin_static1911/memodump/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" media="all" href="/moin_static1911/memodump/css/bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css" media="all" href="/moin_static1911/memodump/css/memodump.css">
+<link rel="stylesheet" type="text/css" media="all" href="/moin_static1911/memodump/css/moinizer.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" media="all" href="/moin_static1911/memodump/css/msie.css">
+<![endif]-->
+
+
+<link rel="alternate" title="CentOS Wiki Recent Changes" href="/action/rss_rc/FrontPage?action=rss_rc&amp;unique=1&amp;ddiffs=1" type="application/rss+xml">
+
+
+<link rel="Start" href="/FrontPage">
+<link rel="Alternate" title="维基标记" href="/action/raw/FrontPage?action=raw">
+<link rel="Alternate" media="print" title="打印视图" href="/action/print/FrontPage?action=print">
+<link rel="Appendix" title="C8_screenshot_s.png" href="/FrontPage?action=AttachFile&amp;do=view&amp;target=C8_screenshot_s.png">
+<link rel="Appendix" title="screenshot-c6-small.png" href="/FrontPage?action=AttachFile&amp;do=view&amp;target=screenshot-c6-small.png">
+<link rel="Appendix" title="screenshot-c7-small.png" href="/FrontPage?action=AttachFile&amp;do=view&amp;target=screenshot-c7-small.png">
+<link rel="Appendix" title="screenshot-centos-400x300.png" href="/FrontPage?action=AttachFile&amp;do=view&amp;target=screenshot-centos-400x300.png">
+<link rel="Appendix" title="screenshot-centos-small.png" href="/FrontPage?action=AttachFile&amp;do=view&amp;target=screenshot-centos-small.png">
+<link rel="Search" href="/FindPage">
+<link rel="Index" href="/TitleIndex">
+<link rel="Glossary" href="/WordIndex">
+<link rel="Help" href="/HelpOnFormatting">
+</head>
+
+<body  lang="zh" dir="ltr">
+
+  <div id="outbox" class="sidebar-toggle">
+    <!-- Bootstrap navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top navbar-mobile-toggle" role="navigation">
+      <div class="container">
+
+        <!-- Navbar header -->
+        <div class="navbar-header">
+          <!-- Sidebar toggler -->
+          <button type="button" class="btn navbar-btn sidebar-toggler" data-toggle="toggle" data-target=".sidebar-toggle">
+            <span class="sr-only">Toggle sidebar</span>
+            <span class="menu-btn-sidebar-toggler sidebar-toggle"></span>
+          </button>
+          <!-- Button to show navbar controls when collapsed -->
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- Sitename -->
+
+          <div class="navbar-brand-wrapper">
+            <a class="navbar-brand" href="/FrontPage"><img src="/moin_static1911/common/centos.png" alt="CentOS Wiki"></a>
+          </div>
+          
+        </div> <!-- /.navbar-header -->
+
+        <!-- Body of navbar -->
+        <div class="collapse navbar-collapse">
+
+          <!-- Navbar elements -->
+          <ul class="nav navbar-nav navbar-right">
+
+            <!-- Comment toggle button -->
+
+            <li class="toggleCommentsButton" style="display:none;">
+              <a href="#" class="menu-nav-comment nbcomment" rel="nofollow" onClick="toggleComments();return false;">
+                <span class="hidden-sm">注释</span>
+              </a>
+            </li>
+
+            <!-- Edit button -->
+
+            <li class="disabled">
+              <a class="menu-nav-edit"><span class="hidden-sm">只读网页</span></a>
+            </li>
+
+            <!-- Search form -->
+
+          <li>
+            <div class="navbar-form">
+              <form class="form-search" role="search" id="searchform" method="get" action="/FrontPage">
+                <input type="hidden" name="action" value="fullsearch">
+                <input type="hidden" name="context" value="180">
+                <div class="form-group">
+                  <label class="sr-only" for="searchinput">搜索：</label>
+                  <input id="searchinput" type="text" class="form-control form-search" placeholder="搜索" name="value" value="">
+                </div>
+              </form>
+            </div>
+          </li>
+
+            <!-- Menu -->
+
+            <li class="dropdown">
+              <!-- Menu button -->
+              <a href="#" class="menu-nav-menu dropdown-toggle" data-toggle="dropdown">
+                Menu<span class="padding"></span><span class="caret"></span>
+              </a>
+              <!-- Dropdown contents -->
+              <ul class="dropdown-menu">
+                <li class="dropdown-header">Navigation</li>
+                <li><a href="/RecentChanges" class="menu-dd-RecentChanges" rel="nofollow">RecentChanges</a></li>
+                <li><a href="/FindPage" class="menu-dd-FindPage" rel="nofollow">FindPage</a></li>
+                <li><a href="/FrontPage?action=LocalSiteMap" class="menu-dd-LocalSiteMap" rel="nofollow">本站地图</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Help</li>
+                <li><a href="/HelpContents" class="menu-dd-HelpContents" rel="nofollow">HelpContents</a></li>
+                <li><a href="/HelpOnMoinWikiSyntax" class="menu-dd-HelpOnMoinWikiSyntax" rel="nofollow">HelpOnMoinWikiSyntax</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">显示</li>
+                <li><a href="/FrontPage?action=AttachFile" class="menu-dd-AttachFile" rel="nofollow">附件</a></li>
+                <li><a href="/FrontPage?action=info" class="menu-dd-info" rel="nofollow">信息</a></li>
+                <li><a href="/FrontPage?action=raw" class="menu-dd-raw" rel="nofollow">源码</a></li>
+                <li><a href="/FrontPage?action=print" class="menu-dd-print" rel="nofollow">打印视图</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">编辑</li>
+                <li><a href="/FrontPage?action=Load" class="menu-dd-Load" rel="nofollow">加载</a></li>
+                <li><a href="/FrontPage?action=Save" class="menu-dd-Save" rel="nofollow">保存</a></li>
+              </ul>
+            </li> <!-- /dropdown -->
+
+            <!-- Login user -->
+
+            <li>
+              <a class="menu-nav-login" href="/action/login/FrontPage?action=login" rel="nofollow">登录</a>
+            </li>
+
+
+          </ul> <!-- /.navbar-right -->
+
+        </div> <!-- /.collapse -->
+      </div> <!-- /.container -->
+    </div> <!-- /.navbar -->
+    <!-- End of navbar -->
+
+    <div class="container no-padding" id="pagebox">
+
+
+      <!-- Sidebar -->
+      <div class="sidebar-toggle" id="sidebar-curtain">
+        <div class="sidebar-toggle" id="sidebar-mover">
+          <div class="sidebar-toggle" id="sidebar" role="navigation">
+<!-- SideBar contents -->
+
+<!-- End of SideBar contents -->
+
+            <div>
+              <h4>Navigation</h4>
+              <ul id='navibar'>
+                <li class="wikilink active"><a href="/FrontPage">FrontPage</a></li>                <li class="wikilink"><a href="/Documentation">Documentation</a></li>                <li class="wikilink"><a href="/TipsAndTricks">TipsAndTricks</a></li>                <li class="wikilink"><a href="/HowTos">HowTos</a></li>                <li class="wikilink"><a href="/FAQ">FAQ</a></li>                <li class="wikilink"><a href="/Events">Events</a></li>                <li class="wikilink"><a href="/Contribute">Contribute</a></li>                <li class="wikilink"><a href="/ReportBugs">ReportBugs</a></li>                <li class="wikilink"><a href="/RecentChanges">RecentChanges</a></li>
+              </ul>
+            </div>
+
+
+          </div> <!-- /#sidebar -->
+        </div> <!-- /#sidebar-mover -->
+      </div><div id="contentbox"> <!-- End of Sidebar and Beginning of content -->
+
+
+
+
+
+<!-- Page contents -->
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><span class="anchor" id="line-2"></span><span class="anchor" id="line-3"></span><span class="anchor" id="line-4"></span><span class="anchor" id="line-5"></span><span class="anchor" id="line-6"></span><span class="anchor" id="line-7"></span><span class="anchor" id="line-8"></span><span class="anchor" id="line-9"></span><p class="line867"><span class="anchor" id="line-10"></span><span class="anchor" id="line-11"></span><div class="tip"><span class="anchor" id="line-1-1"></span><p class="line867"><strong>What is CentOS Linux?</strong> <br>
+CentOS Linux is a community-supported distribution derived from sources freely provided to the public on <a class="ftp" href="ftp://ftp.redhat.com/pub/redhat/linux/enterprise/">Red Hat</a> or <a class="https" href="https://git.centos.org">CentOS git</a> for Red Hat Enterprise Linux (RHEL). As such, CentOS Linux aims to be functionally compatible with RHEL. The CentOS Project mainly changes packages to remove upstream vendor branding and artwork. CentOS Linux is no-cost and free to redistribute. Each CentOS version is maintained until the equivalent RHEL version goes out of general support. A new CentOS version is made available once a new RHEL version is rebuilt - approximately every 6-12 months for minor point releases and several years for major version bumps. The length of time the rebuild takes varies from weeks for point releases to months for major version bumps. This results in a secure, low-maintenance, reliable, predictable and reproducible Linux environment. </div><span class="anchor" id="line-12"></span><span class="anchor" id="line-13"></span><div><table style="float:right;"><tbody><tr>  <td><p class="line891"><a href="/Screenshots"><img alt="Find out what CentOS looks like !" class="attachment" height="330" src="/FrontPage?action=AttachFile&amp;do=get&amp;target=C8_screenshot_s.png" title="Find out what CentOS looks like !" width="440" /></a></td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-14"></span><span class="anchor" id="line-15"></span><div><table><tbody><tr style="background:#FAFAFA">  <td style="padding: 0pt;  text-align: left;  vertical-align: top;  border: 0pt; ; width: 90%"><p class="line862"> <strong><a href="/Download">Download</a></strong><br>
+Download CD and DVD images or individual RPM packages.<br>
+Current major versions are <strong>8 (2011)</strong> and <strong>7 (2009)</strong>.</td>
+  <td colspan="2" style="border:0pt; ; width: 10%; text-align: center"><p class="line862"> </td>
+</tr>
+<tr>  <td style="padding: 0pt;  text-align: left;  vertical-align: top;  border: 0pt; ; width: 90%"><span class="anchor" id="line-16"></span><p class="line891"><strong><a href="/Search">Search</a></strong><br>
+Find information about CentOS by keyword on wiki, website, mailinglists and forums.</td>
+  <td colspan="2" style="border:0pt; ; width: 10%; text-align: center"><p class="line862"> </td>
+</tr>
+<tr style="background:#FAFAFA">  <td style="padding: 0pt;  text-align: left;  vertical-align: top;  border: 0pt; ; width: 99%"><span class="anchor" id="line-17"></span><p class="line891"><strong><a href="/Documentation">Learn</a></strong><br>
+Browse our vastly increasing selection of Manuals, FAQs, Tips-and-tricks and Howtos.</td>
+  <td colspan="2" style="border:0pt; ; width: 10%; text-align: center"><p class="line862"> </td>
+</tr>
+<tr>  <td style="padding: 0pt;  text-align: left;  vertical-align: top;  border: 0pt; ; width: 99%"><span class="anchor" id="line-18"></span><p class="line891"><strong><a href="/Contribute">Contribute</a></strong><br>
+Join the CentOS community and help us help you.</td>
+  <td colspan="2" style="border:0pt; ; width: 10%; text-align: center"><p class="line862"> </td>
+</tr>
+<tr>  <td style="padding: 0pt;  text-align: left;  vertical-align: top;  border: 0pt; ; width: 99%"><span class="anchor" id="line-19"></span><p class="line891"><strong><a href="/SpecialInterestGroup">Special Interest Groups</a></strong><br>
+Want to Focus on a larger idea within CentOS? Join or create a Special Interest Group.</td>
+  <td colspan="2" style="border:0pt; ; width: 10%; text-align: center"><p class="line862"> </td>
+</tr>
+<tr style="background:#FAFAFA">  <td style="padding: 0pt;  text-align: left;  vertical-align: top;  border: 0pt; ; width: 99%"><span class="anchor" id="line-20"></span><p class="line891"><strong><a href="/Promote">Promote</a></strong><br>
+Help us spread the word about CentOS and Enterprise Linux.</td>
+  <td colspan="2" style="border:0pt; ; width: 10%; text-align: center"><p class="line862"> </td>
+</tr>
+<tr>  <td style="padding: 0pt;  text-align: left;  vertical-align: top;  border: 0pt; ; width: 99%"><span class="anchor" id="line-21"></span><p class="line891"><strong><a href="/Donate">Donate</a></strong><br>
+Provide us with the funds we need to operate this free project.</td>
+  <td colspan="2" style="border:0pt; ; width: 10%; text-align: center"><p class="line862"> </td>
+</tr>
+<tr style="background:#FAFAFA">  <td style="padding: 0pt;  text-align: left;  vertical-align: top;  border: 0pt; ; width: 99%"><span class="anchor" id="line-22"></span><p class="line891"><strong><a href="/About">About</a></strong><br>
+Learn more about the CentOS project.</td>
+  <td colspan="2" style="border:0pt; ; width: 10%; text-align: center"><p class="line862"> </td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-23"></span><span class="anchor" id="line-24"></span><p class="line862">This wiki in <a href="/fr">French</a> | <a href="/de">German</a> | <a href="/kr">Korean</a> | <a href="/ru">Russian</a> | <a href="/rs">Serbian</a> | <a href="/es">Spanish</a> | <a href="/zh">Simplified Chinese (简体中文)</a> | <a href="/zh-tw">Traditional Chinese (繁體中文)</a> <span class="anchor" id="line-25"></span><span class="anchor" id="bottom"></span></div>
+<!-- End of page contents -->
+
+      </div> <!-- /#contentbox -->
+      <!-- End of content body -->
+    </div> <!-- /.container, #pagebox -->
+  </div> <!-- /#outbox -->
+
+  <!-- pageinfo -->
+  <div id="pageinfo-container">
+    <div class="container">
+      <p id="pageinfo" class="info" lang="zh" dir="ltr">FrontPage  (2020-12-08 00:46:37由<span title="toracat"><a href="/AkemiYagi" title="toracat">AkemiYagi</a></span>编辑)</p>
+
+    </div>
+  </div>
+  <!-- End of pageinfo -->
+
+
+
+  <!-- Footer -->
+  <div id="footer">
+    <div class="container text-right text-muted">
+      <ul id="credits">
+<li><a href="http://moinmo.in/" title="This site uses the MoinMoin Wiki software.">MoinMoin Powered</a></li><li><a href="http://moinmo.in/Python" title="MoinMoin is written in Python.">Python Powered</a></li><li><a href="http://moinmo.in/GPL" title="MoinMoin is GPL licensed.">GPL licensed</a></li><li><a href="http://validator.w3.org/check?uri=referer" title="Click here to validate this page.">Valid HTML 4.01</a></li>
+</ul>
+
+      
+
+    </div> <!-- /.container -->
+  </div> <!-- /#footer -->
+  <!-- End of footer -->
+
+  <!-- Bootstrap core JavaScript -->
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="/moin_static1911/memodump/js/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="/moin_static1911/memodump/js/bootstrap.min.js"></script>
+  <!-- toggle.js by dossist -->
+  <script src="/moin_static1911/memodump/js/toggle.js"></script>
+  <!-- Uncollapse minified navbar under mobile landscape view syncing with menu button -->
+  <script>
+    +function ($) {
+      $('.navbar-collapse').on('show.bs.collapse', function () {
+        $('.navbar-mobile-toggle').togglejs('show');
+      });
+      $('.navbar-collapse').on('hidden.bs.collapse', function () {
+        $('.navbar-mobile-toggle').togglejs('hide');
+      });
+    }(jQuery);
+  </script>
+  <!-- End of JavaScript -->
+</body>
+</html>
+
+�[���      `2�)`2�_B��f`2�0       :https://wiki.centos.org/ necko:classified 1 strongly-framed 1 security-info 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 request-method GET request-User-Agent Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0 request-Accept-Language zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2 response-head HTTP/1.1 200 OK
+Date: Sun, 21 Feb 2021 13:01:36 GMT
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips mod_wsgi/3.4 Python/2.7.5
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Vary: Cookie,User-Agent,Accept-Language
+Content-Type: text/html; charset=utf-8
+ original-response-headers Date: Sun, 21 Feb 2021 13:01:36 GMT
+Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips mod_wsgi/3.4 Python/2.7.5
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Vary: Cookie,User-Agent,Accept-Language
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+ ctid 1 uncompressed-len 0 predictor::resource-count 14 predictor::https://wiki.centos.org/moin_static1911/common/js/common.js 1,1,1613941289,4097 predictor::https://wiki.centos.org/moin_static1911/memodump/css/bootstrap.min.css 1,1,1613941289,4097 predictor::https://wiki.centos.org/moin_static1911/memodump/css/bootstrap-theme.min.css 1,1,1613941289,4097 predictor::https://wiki.centos.org/moin_static1911/memodump/css/memodump.css 1,1,1613941289,4097 predictor::https://wiki.centos.org/moin_static1911/memodump/css/moinizer.css 1,1,1613941289,4097 predictor::https://wiki.centos.org/moin_static1911/common/centos.png 1,1,1613941289,4097 predictor::https://wiki.centos.org/FrontPage?action=AttachFile&do=get&target=C8_screenshot_s.png 1,1,1613941289,4096 net-response-time-onstart 6842 net-response-time-onstop 11930 predictor::https://wiki.centos.org/moin_static1911/memodump/js/jquery.min.js 1,1,1613941289,4097 predictor::https://wiki.centos.org/moin_static1911/memodump/js/bootstrap.min.js 1,1,1613941289,4097 predictor::https://wiki.centos.org/moin_static1911/memodump/js/toggle.js 1,1,1613941289,4097 predictor::https://wiki.centos.org/moin_static1911/memodump/img/admon-tip.png 1,1,1613941289,4096 predictor::https://wiki.centos.org/moin_static1911/memodump/img/moin-ftp.png 1,1,1613941289,4096 predictor::https://wiki.centos.org/moin_static1911/memodump/img/moin-www.png 1,1,1613941289,4096 predictor::https://wiki.centos.org/moin_static1911/memodump/fonts/glyphicons-halflings-regular.woff 1,1,1613941289,4096   @�
